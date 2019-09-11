@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Nightlife | fullPage</title>
+  </head>
+  <body>
+    <div id="fullPage">
+      <div class="section s1">
+        <div class="slide">
+          <h1>Nightlife Slide One</h1>
+        </div>
+        <div class="slide">
+          <h1>Nightlife Slide Two</h1>
+        </div>
+        <div class="slide">
+          <h1>Nightlife Slide Three</h1>
+        </div>
+      </div>
+      <div class="section s2">
+        <h1>Nightlife Number Two</h1>
+      </div>
+      <div class="section s3">
+        <h1>Nightlife Number Three</h1>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.5/fullpage.min.js"></script>
+
+    <script>
+      new fullpage("#fullPage", {
+        autoScrolling: true,
+        navigation: true,
+        navigationTooltips: ["Section 1", "Section 2", "Section 3"],
+        scrollingSpeed: 1000,
+        controlArrows: false,
+        slidesNavigation: true
+      });
+    </script>
+  </body>
+</html>

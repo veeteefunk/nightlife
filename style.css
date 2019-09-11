@@ -1,0 +1,40 @@
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.s1 {
+  background: url("/img/1-1.jpg");
+  background-size: cover;
+}
+
+.s2 {
+  background: url("/img/2-2-1.jpg");
+  background-size: cover;
+}
+
+.s2 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 4rem;
+}
+
+.s3 {
+  background: url("/img/3-3-1.jpg");
+  background-size: cover;
+}
+
+.s3 h1 {
+  text-align: left;
+  margin-left: 2em;
+  font-size: 2em;
+}
+
+span {
+  background: lightgray !important;
+}
+
+.fp-slidesNav.fp-bottom {
+  margin-left: 1em !important;
+}
